@@ -1,0 +1,18 @@
+#1) Crie um programa em python que faça a 
+#leitura de 4 valores inteiros e em seguida apresente a média destes valores. 
+
+def main(args):
+  	
+   a = int(input("Digite o 1° número"))
+   b = int(input("Digite o 2° número"))
+   c = int(input("Digite o 3° número"))
+   d = int(input("Digite o 4° número"))
+   soma = a+b+c+d
+   media = soma/4
+   print (media) 
+      
+   return 0
+
+if __name__ == '__main__':
+    import sys
+    sys.exit(main(sys.argv))
