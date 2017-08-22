@@ -1,0 +1,24 @@
+#módulo 7 para o mesmo. Supondo que os cinco algarismos do código são ABCDE, uma
+#forma de calcular o dígito desejado, com módulo 7 é: DigitoV = resto da divisão de S por 7,
+#onde S = 6*A + 5*B + 4*C + 3*D + 2*E  (abcde)
+
+def main(args):
+	#n = int(input("Digite um número:" ))
+	n = 54321
+	a = n // 10000
+	resto = n % 10000
+	b = resto // 1000
+	resto = resto % 1000
+	c = resto // 100
+	resto = resto % 100
+	d = resto // 10
+	e = resto % 10
+	print (a, b, c, d, e)
+	s = 6*a + 5*b + 4*c + 3*d + 2*e
+	print("Digito verificador = %d" % (s%7))
+	
+	return 0
+
+if __name__ == '__main__':
+    import sys
+    sys.exit(main(sys.argv))
