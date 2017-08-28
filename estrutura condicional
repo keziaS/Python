@@ -1,0 +1,23 @@
+#Crie um algoritmo que faça a atualização de um salário, sendo que para isso deve-se 
+#realizar a leitura do salário e caso o valor seja menor do que 500 o aumento seja de 10%,
+# caso contrário o aumento deverá ser de 5%. Em seguida apresente o valor do salário reajustado.
+
+
+def main(args):
+	salario = float(0.0)
+	salario = float(input("Digite seu salário"))
+	print("Salário:" salario)
+	if (salario<500)
+	salario = (salario*10/100) + salario
+	print ("Salário:" salario)
+	else 
+	salario = salario*5/100
+	print("Salario:" salario)
+    return 0
+    
+if __name__ == '__main__':
+    import sys
+    sys.exit(main(sys.argv))
+    
+    
+    
