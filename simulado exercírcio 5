@@ -1,0 +1,22 @@
+#5.Desenvolva um programa em python que, dados três valores A,B,C, verificar se eles
+#podem ser os comprimentos dos lados de um triângulo e se forem, verificar se é
+#um triângulo equilátero, isósceles ou escaleno. Se eles não formarem um triângulo
+#escrever a mensagem “não é triângulo”. (20p)
+
+
+def main(args):
+	A = int(input("Digite o valor de A: "))
+	B = int(input("Digite o valor de B: "))
+	C = int(input("Digite o valor de C: "))
+	if (A==C and B==C and C==B):
+		print("O triầngulo é equilátero1")
+	elif (A==B and B==C and C!=A):
+		print("O triângulo é isóceles!")
+	#elseif(A!=B and B!=C and B!=A):
+	else:
+		print("O triângula é escaleno!")
+	return 0
+
+if __name__ == '__main__':
+	import sys
+	sys.exit(main(sys.argv))
