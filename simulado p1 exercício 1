@@ -1,0 +1,17 @@
+#1 - Desenvolva um programa em python para trocar entre si os valores de duas
+#variáveis inteiras dadas como entrada. (14p)
+
+def main(args):
+	A = int(input("Digite o valor de A: "))
+	B = int(input("Digite o valor de B: "))
+	C = B
+	B = A 
+	A = C
+	print(A)
+	print(B)
+	
+	return 0
+
+if __name__ == '__main__':
+    import sys
+    sys.exit(main(sys.argv))
