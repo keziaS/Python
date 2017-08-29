@@ -1,0 +1,15 @@
+##.Faça um programa em python que leia dois valores inteiros, dados como entrada.
+#Ao final o programa deve apresentar o resto da divisão do primeiro pelo segundo
+#valor. (14p)
+
+
+def main(args):
+	A = int(input("Digite o valor de A: "))
+	B = int(input("Digite o valor de B: "))
+	S = A % B
+	print(S)
+	return 0
+
+if __name__ == '__main__':
+    import sys
+    sys.exit(main(sys.argv))
