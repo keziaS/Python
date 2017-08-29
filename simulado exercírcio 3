@@ -1,0 +1,19 @@
+#3 - Faça um programa em python que leia dois valores inteiros A e B. Se os valores
+#forem iguais deverá somar os dois, caso contrário multiplique A por B atribuindo o
+#resultado para uma variável C e imprimir na tela o valor de C. (16p)
+
+def main(args):
+	A = int(input("Digite o valor de A: "))
+	B = int(input("Digite o valor de B: "))
+
+
+	if (A == B):
+		print(A+B)
+	else:
+		print(A*B)
+	return 0
+
+
+if __name__ == '__main__':
+	import sys
+	sys.exit(main(sys.argv))
