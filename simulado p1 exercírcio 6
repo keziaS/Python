@@ -1,0 +1,14 @@
+#Desenvolva um programa em python para ler três valores distintos e determinar e
+#retornar o MAIOR deles. (20p)
+
+
+def main(args):
+	A = float(input("Digite o valor de A: "))
+	B = float(input("Digite o valor de B: "))
+	C = float(input("Digite o valor de C: "))
+	if (A>B and A>C)
+	return 0
+
+if __name__ == '__main__':
+	import sys
+	sys.exit(main(sys.argv))
